@@ -4,7 +4,7 @@
     "description": "Automates configuration for cross-repo usage",
     "main": "index.js",
     "dependencies": {
-      "fs-extra": "^10.1.0",
+      "fs-extra": "^11.2.0",
       "path": "^0.12.7"
     },
     "author": "atomtr",
