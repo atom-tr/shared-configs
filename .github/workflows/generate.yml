@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - 'consts.js'
+      - 'package.json'
 
 
 jobs:
