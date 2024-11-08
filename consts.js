@@ -25,7 +25,7 @@ let SOCIAL = [
 
 let site = {
     title: 'atomtr',
-    description: 'a developer / DevOps engineer with a passion for automating everything.',
+    description: 'A developer / DevOps engineer with a passion for automating everything.',
     email: email_address,
     num_posts_on_homepage: 2,
     posts_per_page: 3,
