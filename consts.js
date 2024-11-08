@@ -1,6 +1,6 @@
-let email_address = "thai.tr@hotmail.com"
+export const email_address = "thai.tr@hotmail.com"
 
-let SOCIAL = [
+export const social = [
     {
         name: "email",
         label: "Email",
@@ -23,7 +23,7 @@ let SOCIAL = [
     }
 ]
 
-let site = {
+export const site = {
     title: 'atomtr',
     description: 'A developer / DevOps engineer with a passion for automating everything.',
     email: email_address,

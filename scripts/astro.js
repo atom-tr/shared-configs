@@ -4,6 +4,7 @@ const path = require('path');
 // Load consts.js
 const constsPath = path.join(__dirname, '../consts.js');
 const consts = require(constsPath);
+console.log(consts)
 
 // Prepare the content for astro.ts
 const astroContent = `
@@ -11,13 +12,13 @@ export const SITE = {
   TITLE: '${consts.site.title}',
   DESCRIPTION: '${consts.site.description}',
   EMAIL: '${consts.email_address}',
-  NUM_POSTS_ON_HOMEPAGE: ${consts.num_posts_on_homepage},
-  POSTS_PER_PAGE: ${consts.posts_per_page},
-  SITEURL: '${consts.site_url}',
+  NUM_POSTS_ON_HOMEPAGE: ${consts.site.num_posts_on_homepage},
+  POSTS_PER_PAGE: ${consts.site.posts_per_page},
+  SITEURL: '${consts.site.site_url}',
 };
 
 export const SOCIAL_LINKS = [
-  ...${JSON.stringify(consts.SOCIAL, null, 2)},
+  ...${JSON.stringify(consts.social, null, 2)},
   { href: '/rss.xml', label: 'RSS' }
 ];
 `;
