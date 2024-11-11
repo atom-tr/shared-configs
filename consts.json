@@ -4,17 +4,20 @@
       {
         "name": "email",
         "label": "Email",
-        "href": "mailto://thai.tr@hotmail.com"
+        "href": "thai.tr@hotmail.com",
+        "icon": "lucide:mail"
       },
       {
         "name": "github",
         "label": "Github",
-        "href": "https://github.com/atom-tr"
+        "href": "https://github.com/atom-tr",
+        "icon": "lucide:github"
       },
       {
         "name": "instagram",
         "label": "Instagram",
-        "href": "https://instagram.com/rt.mota"
+        "href": "https://instagram.com/rt.mota",
+        "icon": "lucide:instagram"
       },
       {
         "name": "dev.to",

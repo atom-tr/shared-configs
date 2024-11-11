@@ -18,7 +18,7 @@ export const SITE = {
 
 export const SOCIAL_LINKS = [
   ...${JSON.stringify(cnf.social, null, 2)},
-  { href: '/rss.xml', label: 'RSS' }
+  { href: '/rss.xml', label: 'RSS', 'icon': 'lucide:rss' }
 ];
 `;
 
